@@ -14,16 +14,18 @@
 
 @implementation OLIViewController
 
+@synthesize carousel;
+
+-(IBAction)firstItemPressed:(id)sender
+{
+    [self.carousel scrollToItemAtIndex:0 animated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+    self.carousel.type = iCarouselTypeLinear;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -32,6 +34,38 @@
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
+    }
+}
+
+-(NSUInteger)numberOfItemsInCarousel:(iCarousel *)carousel
+{
+    return 10;
+}
+
+-(UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSUInteger)index reusingView:(UIView *)view
+{
+    UILabel *label;
+    if (view == nil) {
+        view = [[[UIView alloc] initWithFrame:self.carousel.frame] autorelease];
+        label = [[[UILabel alloc] initWithFrame:view.frame] autorelease];
+        label.textAlignment = UITextAlignmentCenter;
+        label.font = [UIFont boldSystemFontOfSize:50];
+        label.textColor = [UIColor redColor];
+        [view addSubview:label];
+    } else {
+        label = [view.subviews lastObject];
+    }
+    label.text = [NSString stringWithFormat:@"%d", index];
+    return view;
+}
+
+-(CGFloat)carousel:(iCarousel *)carousel valueForOption:(iCarouselOption)option withDefault:(CGFloat)value
+{
+    switch (option) {
+        case iCarouselOptionWrap:
+            return YES;
+        default:
+            return value;
     }
 }
 

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iCarousel.h"
 
-@interface OLIViewController : UIViewController
+@interface OLIViewController : UIViewController<iCarouselDelegate, iCarouselDataSource>
+
+@property (nonatomic, strong) IBOutlet iCarousel *carousel;
+
+-(IBAction)firstItemPressed:(id)sender;
 
 @end

@@ -21,6 +21,10 @@
 		10DAD4DA15C997F50077FE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4B815C997F50077FE75 /* Foundation.framework */; };
 		10DAD4E215C997F50077FE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10DAD4E015C997F50077FE75 /* InfoPlist.strings */; };
 		10DAD4E515C997F50077FE75 /* iCarouselOffByOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD4E415C997F50077FE75 /* iCarouselOffByOneTests.m */; };
+		10DAD4F015C998AC0077FE75 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD4EF15C998AC0077FE75 /* iCarousel.m */; };
+		10DAD4F115C998AC0077FE75 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD4EF15C998AC0077FE75 /* iCarousel.m */; };
+		10DAD4F315C99A950077FE75 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4F215C99A950077FE75 /* QuartzCore.framework */; };
+		10DAD4F415C99ABE0077FE75 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4F215C99A950077FE75 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +42,25 @@
 		10DAD4B615C997F50077FE75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		10DAD4B815C997F50077FE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10DAD4BA15C997F50077FE75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		10DAD4BE15C997F50077FE75 /* iCarouselOffByOne-Info.plist */ = {isa = PBXFileReference; path = "iCarouselOffByOne-Info.plist"; sourceTree = "<group>"; };
+		10DAD4BE15C997F50077FE75 /* iCarouselOffByOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCarouselOffByOne-Info.plist"; sourceTree = "<group>"; };
 		10DAD4C015C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10DAD4C215C997F50077FE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		10DAD4C415C997F50077FE75 /* iCarouselOffByOne-Prefix.pch */ = {isa = PBXFileReference; path = "iCarouselOffByOne-Prefix.pch"; sourceTree = "<group>"; };
-		10DAD4C515C997F50077FE75 /* OLIAppDelegate.h */ = {isa = PBXFileReference; path = OLIAppDelegate.h; sourceTree = "<group>"; };
+		10DAD4C415C997F50077FE75 /* iCarouselOffByOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCarouselOffByOne-Prefix.pch"; sourceTree = "<group>"; };
+		10DAD4C515C997F50077FE75 /* OLIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLIAppDelegate.h; sourceTree = "<group>"; };
 		10DAD4C615C997F50077FE75 /* OLIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLIAppDelegate.m; sourceTree = "<group>"; };
-		10DAD4C815C997F50077FE75 /* OLIViewController.h */ = {isa = PBXFileReference; path = OLIViewController.h; sourceTree = "<group>"; };
+		10DAD4C815C997F50077FE75 /* OLIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLIViewController.h; sourceTree = "<group>"; };
 		10DAD4C915C997F50077FE75 /* OLIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLIViewController.m; sourceTree = "<group>"; };
 		10DAD4CC15C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OLIViewController_iPhone.xib; sourceTree = "<group>"; };
 		10DAD4CF15C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OLIViewController_iPad.xib; sourceTree = "<group>"; };
 		10DAD4D615C997F50077FE75 /* iCarouselOffByOneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarouselOffByOneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DAD4D715C997F50077FE75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		10DAD4DF15C997F50077FE75 /* iCarouselOffByOneTests-Info.plist */ = {isa = PBXFileReference; path = "iCarouselOffByOneTests-Info.plist"; sourceTree = "<group>"; };
+		10DAD4DF15C997F50077FE75 /* iCarouselOffByOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCarouselOffByOneTests-Info.plist"; sourceTree = "<group>"; };
 		10DAD4E115C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		10DAD4E315C997F50077FE75 /* iCarouselOffByOneTests.h */ = {isa = PBXFileReference; path = iCarouselOffByOneTests.h; sourceTree = "<group>"; };
+		10DAD4E315C997F50077FE75 /* iCarouselOffByOneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarouselOffByOneTests.h; sourceTree = "<group>"; };
 		10DAD4E415C997F50077FE75 /* iCarouselOffByOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCarouselOffByOneTests.m; sourceTree = "<group>"; };
+		10DAD4EE15C998AC0077FE75 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		10DAD4EF15C998AC0077FE75 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		10DAD4F215C99A950077FE75 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DAD4F315C99A950077FE75 /* QuartzCore.framework in Frameworks */,
 				10DAD4B715C997F50077FE75 /* UIKit.framework in Frameworks */,
 				10DAD4B915C997F50077FE75 /* Foundation.framework in Frameworks */,
 				10DAD4BB15C997F50077FE75 /* CoreGraphics.framework in Frameworks */,
@@ -71,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DAD4F415C99ABE0077FE75 /* QuartzCore.framework in Frameworks */,
 				10DAD4D815C997F50077FE75 /* SenTestingKit.framework in Frameworks */,
 				10DAD4D915C997F50077FE75 /* UIKit.framework in Frameworks */,
 				10DAD4DA15C997F50077FE75 /* Foundation.framework in Frameworks */,
@@ -102,6 +111,7 @@
 		10DAD4B515C997F50077FE75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10DAD4F215C99A950077FE75 /* QuartzCore.framework */,
 				10DAD4B615C997F50077FE75 /* UIKit.framework */,
 				10DAD4B815C997F50077FE75 /* Foundation.framework */,
 				10DAD4BA15C997F50077FE75 /* CoreGraphics.framework */,
@@ -113,6 +123,8 @@
 		10DAD4BC15C997F50077FE75 /* iCarouselOffByOne */ = {
 			isa = PBXGroup;
 			children = (
+				10DAD4EE15C998AC0077FE75 /* iCarousel.h */,
+				10DAD4EF15C998AC0077FE75 /* iCarousel.m */,
 				10DAD4C515C997F50077FE75 /* OLIAppDelegate.h */,
 				10DAD4C615C997F50077FE75 /* OLIAppDelegate.m */,
 				10DAD4C815C997F50077FE75 /* OLIViewController.h */,
@@ -265,6 +277,7 @@
 				10DAD4C315C997F50077FE75 /* main.m in Sources */,
 				10DAD4C715C997F50077FE75 /* OLIAppDelegate.m in Sources */,
 				10DAD4CA15C997F50077FE75 /* OLIViewController.m in Sources */,
+				10DAD4F015C998AC0077FE75 /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DAD4E515C997F50077FE75 /* iCarouselOffByOneTests.m in Sources */,
+				10DAD4F115C998AC0077FE75 /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
