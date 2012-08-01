@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10DAD4B715C997F50077FE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4B615C997F50077FE75 /* UIKit.framework */; };
+		10DAD4B915C997F50077FE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4B815C997F50077FE75 /* Foundation.framework */; };
+		10DAD4BB15C997F50077FE75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4BA15C997F50077FE75 /* CoreGraphics.framework */; };
+		10DAD4C115C997F50077FE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10DAD4BF15C997F50077FE75 /* InfoPlist.strings */; };
+		10DAD4C315C997F50077FE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD4C215C997F50077FE75 /* main.m */; };
+		10DAD4C715C997F50077FE75 /* OLIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD4C615C997F50077FE75 /* OLIAppDelegate.m */; };
+		10DAD4CA15C997F50077FE75 /* OLIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD4C915C997F50077FE75 /* OLIViewController.m */; };
+		10DAD4CD15C997F50077FE75 /* OLIViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10DAD4CB15C997F50077FE75 /* OLIViewController_iPhone.xib */; };
+		10DAD4D015C997F50077FE75 /* OLIViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10DAD4CE15C997F50077FE75 /* OLIViewController_iPad.xib */; };
+		10DAD4D815C997F50077FE75 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4D715C997F50077FE75 /* SenTestingKit.framework */; };
+		10DAD4D915C997F50077FE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4B615C997F50077FE75 /* UIKit.framework */; };
+		10DAD4DA15C997F50077FE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAD4B815C997F50077FE75 /* Foundation.framework */; };
+		10DAD4E215C997F50077FE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10DAD4E015C997F50077FE75 /* InfoPlist.strings */; };
+		10DAD4E515C997F50077FE75 /* iCarouselOffByOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAD4E415C997F50077FE75 /* iCarouselOffByOneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10DAD4DB15C997F50077FE75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10DAD4A915C997F50077FE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10DAD4B115C997F50077FE75;
+			remoteInfo = iCarouselOffByOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10DAD4B215C997F50077FE75 /* iCarouselOffByOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCarouselOffByOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DAD4B615C997F50077FE75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10DAD4B815C997F50077FE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10DAD4BA15C997F50077FE75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10DAD4BE15C997F50077FE75 /* iCarouselOffByOne-Info.plist */ = {isa = PBXFileReference; path = "iCarouselOffByOne-Info.plist"; sourceTree = "<group>"; };
+		10DAD4C015C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10DAD4C215C997F50077FE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10DAD4C415C997F50077FE75 /* iCarouselOffByOne-Prefix.pch */ = {isa = PBXFileReference; path = "iCarouselOffByOne-Prefix.pch"; sourceTree = "<group>"; };
+		10DAD4C515C997F50077FE75 /* OLIAppDelegate.h */ = {isa = PBXFileReference; path = OLIAppDelegate.h; sourceTree = "<group>"; };
+		10DAD4C615C997F50077FE75 /* OLIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLIAppDelegate.m; sourceTree = "<group>"; };
+		10DAD4C815C997F50077FE75 /* OLIViewController.h */ = {isa = PBXFileReference; path = OLIViewController.h; sourceTree = "<group>"; };
+		10DAD4C915C997F50077FE75 /* OLIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLIViewController.m; sourceTree = "<group>"; };
+		10DAD4CC15C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OLIViewController_iPhone.xib; sourceTree = "<group>"; };
+		10DAD4CF15C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OLIViewController_iPad.xib; sourceTree = "<group>"; };
+		10DAD4D615C997F50077FE75 /* iCarouselOffByOneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarouselOffByOneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DAD4D715C997F50077FE75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		10DAD4DF15C997F50077FE75 /* iCarouselOffByOneTests-Info.plist */ = {isa = PBXFileReference; path = "iCarouselOffByOneTests-Info.plist"; sourceTree = "<group>"; };
+		10DAD4E115C997F50077FE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10DAD4E315C997F50077FE75 /* iCarouselOffByOneTests.h */ = {isa = PBXFileReference; path = iCarouselOffByOneTests.h; sourceTree = "<group>"; };
+		10DAD4E415C997F50077FE75 /* iCarouselOffByOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCarouselOffByOneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10DAD4AF15C997F50077FE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAD4B715C997F50077FE75 /* UIKit.framework in Frameworks */,
+				10DAD4B915C997F50077FE75 /* Foundation.framework in Frameworks */,
+				10DAD4BB15C997F50077FE75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DAD4D215C997F50077FE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAD4D815C997F50077FE75 /* SenTestingKit.framework in Frameworks */,
+				10DAD4D915C997F50077FE75 /* UIKit.framework in Frameworks */,
+				10DAD4DA15C997F50077FE75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DAD4A715C997F50077FE75 = {
+			isa = PBXGroup;
+			children = (
+				10DAD4BC15C997F50077FE75 /* iCarouselOffByOne */,
+				10DAD4DD15C997F50077FE75 /* iCarouselOffByOneTests */,
+				10DAD4B515C997F50077FE75 /* Frameworks */,
+				10DAD4B315C997F50077FE75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10DAD4B315C997F50077FE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10DAD4B215C997F50077FE75 /* iCarouselOffByOne.app */,
+				10DAD4D615C997F50077FE75 /* iCarouselOffByOneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10DAD4B515C997F50077FE75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DAD4B615C997F50077FE75 /* UIKit.framework */,
+				10DAD4B815C997F50077FE75 /* Foundation.framework */,
+				10DAD4BA15C997F50077FE75 /* CoreGraphics.framework */,
+				10DAD4D715C997F50077FE75 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10DAD4BC15C997F50077FE75 /* iCarouselOffByOne */ = {
+			isa = PBXGroup;
+			children = (
+				10DAD4C515C997F50077FE75 /* OLIAppDelegate.h */,
+				10DAD4C615C997F50077FE75 /* OLIAppDelegate.m */,
+				10DAD4C815C997F50077FE75 /* OLIViewController.h */,
+				10DAD4C915C997F50077FE75 /* OLIViewController.m */,
+				10DAD4CB15C997F50077FE75 /* OLIViewController_iPhone.xib */,
+				10DAD4CE15C997F50077FE75 /* OLIViewController_iPad.xib */,
+				10DAD4BD15C997F50077FE75 /* Supporting Files */,
+			);
+			path = iCarouselOffByOne;
+			sourceTree = "<group>";
+		};
+		10DAD4BD15C997F50077FE75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10DAD4BE15C997F50077FE75 /* iCarouselOffByOne-Info.plist */,
+				10DAD4BF15C997F50077FE75 /* InfoPlist.strings */,
+				10DAD4C215C997F50077FE75 /* main.m */,
+				10DAD4C415C997F50077FE75 /* iCarouselOffByOne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10DAD4DD15C997F50077FE75 /* iCarouselOffByOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				10DAD4E315C997F50077FE75 /* iCarouselOffByOneTests.h */,
+				10DAD4E415C997F50077FE75 /* iCarouselOffByOneTests.m */,
+				10DAD4DE15C997F50077FE75 /* Supporting Files */,
+			);
+			path = iCarouselOffByOneTests;
+			sourceTree = "<group>";
+		};
+		10DAD4DE15C997F50077FE75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10DAD4DF15C997F50077FE75 /* iCarouselOffByOneTests-Info.plist */,
+				10DAD4E015C997F50077FE75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10DAD4B115C997F50077FE75 /* iCarouselOffByOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DAD4E815C997F50077FE75 /* Build configuration list for PBXNativeTarget "iCarouselOffByOne" */;
+			buildPhases = (
+				10DAD4AE15C997F50077FE75 /* Sources */,
+				10DAD4AF15C997F50077FE75 /* Frameworks */,
+				10DAD4B015C997F50077FE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarouselOffByOne;
+			productName = iCarouselOffByOne;
+			productReference = 10DAD4B215C997F50077FE75 /* iCarouselOffByOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10DAD4D515C997F50077FE75 /* iCarouselOffByOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DAD4EB15C997F50077FE75 /* Build configuration list for PBXNativeTarget "iCarouselOffByOneTests" */;
+			buildPhases = (
+				10DAD4D115C997F50077FE75 /* Sources */,
+				10DAD4D215C997F50077FE75 /* Frameworks */,
+				10DAD4D315C997F50077FE75 /* Resources */,
+				10DAD4D415C997F50077FE75 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DAD4DC15C997F50077FE75 /* PBXTargetDependency */,
+			);
+			name = iCarouselOffByOneTests;
+			productName = iCarouselOffByOneTests;
+			productReference = 10DAD4D615C997F50077FE75 /* iCarouselOffByOneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10DAD4A915C997F50077FE75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OLI;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 10DAD4AC15C997F50077FE75 /* Build configuration list for PBXProject "iCarouselOffByOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10DAD4A715C997F50077FE75;
+			productRefGroup = 10DAD4B315C997F50077FE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10DAD4B115C997F50077FE75 /* iCarouselOffByOne */,
+				10DAD4D515C997F50077FE75 /* iCarouselOffByOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10DAD4B015C997F50077FE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAD4C115C997F50077FE75 /* InfoPlist.strings in Resources */,
+				10DAD4CD15C997F50077FE75 /* OLIViewController_iPhone.xib in Resources */,
+				10DAD4D015C997F50077FE75 /* OLIViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DAD4D315C997F50077FE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAD4E215C997F50077FE75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10DAD4D415C997F50077FE75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10DAD4AE15C997F50077FE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAD4C315C997F50077FE75 /* main.m in Sources */,
+				10DAD4C715C997F50077FE75 /* OLIAppDelegate.m in Sources */,
+				10DAD4CA15C997F50077FE75 /* OLIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DAD4D115C997F50077FE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAD4E515C997F50077FE75 /* iCarouselOffByOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10DAD4DC15C997F50077FE75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10DAD4B115C997F50077FE75 /* iCarouselOffByOne */;
+			targetProxy = 10DAD4DB15C997F50077FE75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10DAD4BF15C997F50077FE75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10DAD4C015C997F50077FE75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10DAD4CB15C997F50077FE75 /* OLIViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10DAD4CC15C997F50077FE75 /* en */,
+			);
+			name = OLIViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		10DAD4CE15C997F50077FE75 /* OLIViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10DAD4CF15C997F50077FE75 /* en */,
+			);
+			name = OLIViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		10DAD4E015C997F50077FE75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10DAD4E115C997F50077FE75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10DAD4E615C997F50077FE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10DAD4E715C997F50077FE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10DAD4E915C997F50077FE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselOffByOne/iCarouselOffByOne-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselOffByOne/iCarouselOffByOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10DAD4EA15C997F50077FE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselOffByOne/iCarouselOffByOne-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselOffByOne/iCarouselOffByOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10DAD4EC15C997F50077FE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCarouselOffByOne.app/iCarouselOffByOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselOffByOne/iCarouselOffByOne-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselOffByOneTests/iCarouselOffByOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		10DAD4ED15C997F50077FE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCarouselOffByOne.app/iCarouselOffByOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselOffByOne/iCarouselOffByOne-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselOffByOneTests/iCarouselOffByOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10DAD4AC15C997F50077FE75 /* Build configuration list for PBXProject "iCarouselOffByOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DAD4E615C997F50077FE75 /* Debug */,
+				10DAD4E715C997F50077FE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10DAD4E815C997F50077FE75 /* Build configuration list for PBXNativeTarget "iCarouselOffByOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DAD4E915C997F50077FE75 /* Debug */,
+				10DAD4EA15C997F50077FE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10DAD4EB15C997F50077FE75 /* Build configuration list for PBXNativeTarget "iCarouselOffByOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DAD4EC15C997F50077FE75 /* Debug */,
+				10DAD4ED15C997F50077FE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10DAD4A915C997F50077FE75 /* Project object */;
+}
